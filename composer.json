@@ -1,5 +1,5 @@
 {
-    "name": "marksitko/laravel-deep-translatable",
+    "name": "jacekslawinski/laravel-deep-translatable",
     "description": "Translates automatic eloquent model attributes via DeepL",
     "keywords": [
         "marksitko",
@@ -16,11 +16,16 @@
             "name": "Mark Sitko",
             "email": "hey@marksitko.de",
             "role": "Developer"
+        },
+        {
+            "name": "Jacek Sławiński",
+            "email": "jacek.slaw@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.0|^8.1",
-        "illuminate/support": "^9.0"
+        "illuminate/support": ">=9.0"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0",
