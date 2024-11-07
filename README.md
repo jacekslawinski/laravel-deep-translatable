@@ -1,8 +1,5 @@
 # Automatic translatables Eloquent models with DeepL
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/marksitko/laravel-deep-translatable.svg?style=flat-square)](https://packagist.org/packages/marksitko/laravel-deep-translatable)
-[![Total Downloads](https://img.shields.io/packagist/dt/marksitko/laravel-deep-translatable.svg?style=flat-square)](https://packagist.org/packages/marksitko/laravel-deep-translatable)
-
 Laravel-Deep-Translatable is more than just an API Wrapper for DeepL. It contains a trait to make Eloquent models automatic translatable. So you can easily publish a Blog post (or whatever) and create multiple language versions of it quite automatically. If you need to adjust or refine the translation, just got for it by using the provided `updateTranslation` method.
 
 ## Installation
@@ -10,7 +7,7 @@ Laravel-Deep-Translatable is more than just an API Wrapper for DeepL. It contain
 Install the package via composer:
 
 ```bash
-composer require marksitko/laravel-deep-translatable
+composer require jacekslawinski/laravel-deep-translatable
 ```
 
 Laravel-Deep-Translatable comes with package discovery and Laravel will register the service provider automatically. Just in case you wanna add it manually, you should provide it in config/app.php
